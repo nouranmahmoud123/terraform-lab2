@@ -1,0 +1,43 @@
+========================================
+TERRAFORM LAB 2 - INFRASTRUCTURE LOG
+========================================
+instance_ids = [
+  "i-09e9118204f82dfca",
+  "i-042629581ff8362c7",
+]
+instances_details = [
+  {
+    "instance_id" = "i-09e9118204f82dfca"
+    "private_ip" = "10.0.0.229"
+    "public_ip" = "3.231.94.61"
+    "subnet_id" = "subnet-0b4afb05c2358bac0"
+  },
+  {
+    "instance_id" = "i-042629581ff8362c7"
+    "private_ip" = "10.0.1.141"
+    "public_ip" = "98.94.70.213"
+    "subnet_id" = "subnet-0ec34172b180a0f1d"
+  },
+]
+internet_gateway_id = "igw-0da178dbdcbd69668"
+private_ips = [
+  "10.0.0.229",
+  "10.0.1.141",
+]
+public_ips = [
+  "3.231.94.61",
+  "98.94.70.213",
+]
+security_group_id = "sg-05f55eec40ebc2a12"
+subnet_cidrs = [
+  "10.0.0.0/24",
+  "10.0.1.0/24",
+  "10.0.2.0/24",
+]
+subnet_ids = [
+  "subnet-0b4afb05c2358bac0",
+  "subnet-0ec34172b180a0f1d",
+  "subnet-027e451cffc2c5e23",
+]
+vpc_cidr = "10.0.0.0/16"
+vpc_id = "vpc-029495bb2003e8bec"

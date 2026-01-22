@@ -1,0 +1,23 @@
+========================================
+PRIVATE IP ADDRESSES LOG
+========================================
+
+Instance 1:
+  Instance ID: i-09e9118204f82dfca
+  Private IP: 10.0.0.229
+  Subnet ID: subnet-0b4afb05c2358bac0
+  Subnet CIDR: 10.0.0.0/24
+
+Instance 2:
+  Instance ID: i-042629581ff8362c7
+  Private IP: 10.0.1.141
+  Subnet ID: subnet-0ec34172b180a0f1d
+  Subnet CIDR: 10.0.1.0/24
+
+========================================
+SUMMARY
+========================================
+Total Instances: 2
+Total Subnets: 3
+VPC CIDR: 10.0.0.0/16
+All Private IPs: 10.0.0.229, 10.0.1.141

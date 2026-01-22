@@ -1,0 +1,26 @@
+# Terraform state and lock files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# Terraform directory (contains large provider binaries)
+.terraform/
+
+# Terraform files
+tfplan
+*.tfvars
+!terraform.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
